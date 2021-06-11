@@ -1,0 +1,13 @@
+body{
+    background-color: #0000ff;
+    color: #fff;
+    margin-top: 50px;
+}
+p{
+    font-size: 2em;
+    text-align: center;
+}
+strong{
+    color: yellow;
+    font-size: 1.5em;
+}
