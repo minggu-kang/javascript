@@ -1,0 +1,9 @@
+#container{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+img{
+    vertical-align: middle; /*수직 정렬 - top middle bottom*/
+    margin: 20px;
+}
