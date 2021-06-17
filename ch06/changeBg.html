@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>버튼을 눌러 배경색 바꾸기</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        ul{ list-style: none; margin: 50px 150px;}
+        ul li{ display: inline; border: 1px solid #ccc; padding: 10px 20px; margin: 0 auto;}
+        ul li a {text-decoration: none; color: black; text-align: center; }
+        .box{width: 600px; height: 500px; border: 1px solid #ccc; margin: 50px 100px; border-radius: 10px;}
+        ul li a:hover{ color: red;}
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#" onclick="changeBg('green')">green</a></li>
+        <li><a href="#" onclick="changeBg('orange')">Orange</a></li>
+        <li><a href="#" onclick="changeBg('purple')">Purple</a></li>
+    </ul>
+    <div id="demo" class="box">
+
+    </div>
+    <script>
+    
+        function changeBg(color){
+            let result = document.querySelector('#demo');
+            result.style.backgroundColor = color;
+        }
+    
+    </script>
+
+</body>
+</html>

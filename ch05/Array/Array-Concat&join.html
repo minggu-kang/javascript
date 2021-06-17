@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array - Concat & Join</title>
+</head>
+<body>
+    <h2>배열 과 배열을 합치는 Concat & 배열 요소를 연결하는 Join</h2>
+    <script>
+        var numbers = [1,2,3];
+        var chars = ['a','b','c'];
+
+        //배열 과 배열을 합치는 concat
+
+        var list = numbers.concat(chars);
+        document.write(list + '<br>');
+
+        //배열 요소 연결하기
+
+        document.write(numbers.join()+"<br>"); //기본 콤머
+        document.write(numbers.join('-')+"<br>"); 
+        document.write(chars.join('-')+"<br>");
+        document.write(list.join(":")+"<br>");
+    </script>    
+</body>
+</html>

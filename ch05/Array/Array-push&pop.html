@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array - Push & Pop</title>
+</head>
+<body>
+    <h2>배열 특정 인덱스에 요소 추가, 삭제</h2>
+    <script>
+        //특정 위치 요소 삭제
+        var animal = ['소','돼지','강아지','고양이'];
+
+        animal.splice(0,2); //splice()= 시작위치 : 개수 = 0번부터 2개 삭제 
+        
+        document.write(animal);
+
+        document.write("<br>");
+
+        // 특정 위치 요소 추가
+
+        animal.splice(0 , 0 , "말"); // splice( & , % , *) & = 추가할 위치 , % = 0(삭제하지 않음) , * = "추가 요소"
+        
+        document.write(animal);
+    </script>    
+</body>
+</html>
